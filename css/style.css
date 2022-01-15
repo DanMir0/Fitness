@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1060px;
+    background-color: white;
+    margin: 0 auto;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+h1 {
+    padding-top: 50px;
+}
+
+.navigation-menu {
+    background-color: #4f4f4f;
+    width: 100%;
+    margin-top: 40px;
+}
+
+    .navigation-menu ul li {
+        display: inline-block;
+        padding: 12px 24px; 
+    }
+
+    .navigation-menu ul li a {
+        color: #fff;
+        font-size: 15px;
+        text-decoration: none;
+    }
+    
+    .navigation-menu ul li:hover {
+        background-color: #393939;
+        border: 1px solid #c8c8c8;
+    }
+
+.container-main {
+    display: flex;
+    float: 1 0 auto;
+    margin-top: 40px;
+}
+
+    .category {
+        width: 240px;
+        border: 1px solid #c8c8c8;
+        background-color: #ffffff;
+        margin-right: 45px;
+    }
+
+        .category a {
+            display:inline-block;
+            font-size: 13px;
+            text-decoration: none;
+            color: #000; 
+            padding: 10px;
+        }
+
+    .category:hover {
+        background-color: #f9f9f9;
+        padding-left: 24px; 
+    }
+
+.сontent {
+    flex: 1 1 auto;
+}
+
+    #img-bicycle {
+       width: 100%;
+       border: 1px solid #c8c8c8;
+        padding: 50px 90px;
+    }
+
+    .text {
+        font-size: 13px;
+        padding: 20px;
+    }
+
+.navigation-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #c8c8c8;
+    margin-bottom: 60px;
+}
+
+    .navigation-footer ul li {
+        display: inline-block;
+        padding: 12px 24px;
+    }
+
+    .navigation-footer ul li a, .reserved-text {
+        color:#000;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .reserved-text {
+        padding-right: 25px;
+    }
+
+    .navigation-footer ul li a:hover {
+        text-decoration: underline;
+    }
